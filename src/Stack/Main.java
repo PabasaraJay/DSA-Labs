@@ -15,12 +15,12 @@ public class Main {
 		
 		stack.display();
 		System.out.println("\n");
-		System.out.println("Peek value is : "+stack.peek() );
+		System.out.println("The Peek value is : "+stack.peek() );
 		System.out.println("\n");
 		
 		while(!stack.isEmpty()) {
 			char ch2 = stack.pop();
-			System.out.println("Top deleted value :"+ch2);
+			System.out.println("The Top deleted value is :"+ch2);
 			i++;
 		}
 	}
